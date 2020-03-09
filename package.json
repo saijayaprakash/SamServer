@@ -1,0 +1,22 @@
+{
+  "name": "hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.6.0",
+    "@hapi/hapi": "*",
+    "@hapi/joi": "*",
+    "amqplib": "^0.5.5",
+    "boom": "*",
+    "joi": "*",
+    "pg": "^7.18.2",
+    "redis": "^3.0.2"
+  }
+}
